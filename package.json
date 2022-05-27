@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "tsdx watch",
-    "build": "cross-env NODE_ENV=production tsdx build",
+    "build": "cross-env NODE_ENV=production tsdx build --output public",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "husky install && cross-env NODE_ENV=production tsdx build",
